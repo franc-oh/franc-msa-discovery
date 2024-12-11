@@ -7,10 +7,7 @@
 - JDK 17
 - Spring Boot 3.2.1
 - Spring Cloud Eureka Server 4.1.3
-- Spring Security
-- Spring Data JPA
 - Lombok
-- H2 DB (In-Memory)
 - Gradle 8.10
 
 <br/>
