@@ -16,9 +16,12 @@
 <br/>
 
 ## 📌 서비스 설명
-> 프로파일 : `test`
+
+### 프로파일
+> `test`
 - VM Option = `-Dspring.profiles.active={profile}`
 
+<br/>
 
 ### 디스커버리 대시보드
 > {hostname}:{port}/franc/discovery
