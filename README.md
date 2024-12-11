@@ -19,6 +19,7 @@
 > 프로파일 : `test`
 - VM Option = `-Dspring.profiles.active={profile}`
 
+
 ### 디스커버리 대시보드
 > {hostname}:{port}/franc/discovery
->   - ex.) test : http://localhost:8760/franc/discovery
+- ex.) test : http://localhost:8760/franc/discovery
