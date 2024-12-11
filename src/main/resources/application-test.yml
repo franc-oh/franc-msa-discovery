@@ -1,0 +1,25 @@
+spring:
+  config:
+    activate:
+      on-profile: "test"
+
+# 유레카 서버 설정
+eureka:
+  instance:
+    hostname: localhost
+
+logging:
+  level:
+    root: INFO
+    com.zaxxer.hikari.pool.HikariPool: INFO
+    org:
+      springframework:
+        boot:
+          autoconfigure: ERROR
+    jdbc:
+      sqlonly: OFF
+      sqltiming: INFO
+      resultsettable: INFO
+      audit: OFF
+      resultset: OFF
+      connection: OFF
