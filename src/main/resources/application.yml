@@ -12,11 +12,9 @@ server:
 spring:
   application:
     name: franc-discovery
-
   output:
     ansi:
       enabled: always
-
   devtools:
     livereload:
       enabled: true
