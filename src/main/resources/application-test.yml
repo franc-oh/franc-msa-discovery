@@ -6,7 +6,11 @@ spring:
 # 유레카 서버 설정
 eureka:
   instance:
-    hostname: localhost
+    hostname: ${spring.cloud.client.hostname}:${spring.application.instance_id:${random.value}}
+  client:
+    service-url:
+      defaultZone: http://localhost:8760/franc/discovery/eureka #Eureka Server 명시
+
 
 logging:
   level:
